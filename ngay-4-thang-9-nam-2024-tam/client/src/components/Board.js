@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import List from "./List";
 import { DragDropContext } from "react-beautiful-dnd";
 import { Button, Form, Container, Row, Col } from "react-bootstrap";
-import "./Board.css";
+import "./styles/Board.css";
 
 const Board = () => {
   const getInitialLists = () => {

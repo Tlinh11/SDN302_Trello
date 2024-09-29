@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Card from "./Card";
 import { Droppable } from "react-beautiful-dnd";
 import { Button, Form } from "react-bootstrap";
-import "./List.css";
+import "./styles/List.css";
 
 const List = ({ list, setLists, lists }) => {
   const [newCardTitle, setNewCardTitle] = useState("");

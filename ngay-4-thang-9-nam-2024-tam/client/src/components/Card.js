@@ -1,7 +1,7 @@
 // frontend/src/components/Card.js
 import React, { useState } from "react";
 import { Draggable } from "react-beautiful-dnd";
-import "./Card.css";
+import "./styles/Card.css";
 import { Button, Form } from "react-bootstrap";
 
 const Card = ({ card, index, list, setLists, lists }) => {
