@@ -29,7 +29,7 @@
 
 .profile-link {
   margin-left: 15px; /* Thêm khoảng cách giữa các liên kết */
-  color: #ffffff; /* Đặt màu chữ trắng cho liên kết profile */
+  color: #000000; /* Đặt màu chữ trắng cho liên kết profile */
 }
 
 .profile-link i {

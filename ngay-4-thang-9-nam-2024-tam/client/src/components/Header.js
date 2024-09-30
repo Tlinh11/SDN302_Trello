@@ -1,7 +1,7 @@
 // Header.js
 import React from "react";
 import { Navbar, Nav, Form, FormControl } from "react-bootstrap";
-import { FaSearch } from "react-icons/fa"; // Thêm biểu tượng tìm kiếm từ react-icons
+import { FaSearch } from "react-icons/fa";
 import "./styles/Header.css";
 
 const Header = () => {
@@ -16,7 +16,7 @@ const Header = () => {
             <FaSearch className="search-icon" />
           </Form>
           <Nav.Link href="/profile" className="profile-link">
-            <i className="fas fa-user"></i> Profile
+            <i className="fas fa-user">Profile</i>
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>
